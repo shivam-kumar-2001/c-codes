@@ -1,0 +1,16 @@
+#include<iostream>
+void solve(){
+	
+   int a=0,b=0;
+   std::cin>>a>>b;
+   std::cout<<"multiplication of two no. "<< a <<" and "<< b <<" is "<< a*b <<std::endl;
+	
+}
+int main(){
+	#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output1.txt", "w", stdout);
+	#endif
+	solve();
+	return 0;
+}
