@@ -1,0 +1,17 @@
+#include<iostream>
+void solve(){
+	
+   int a=0,b=0;
+   std::cout<<"enter two number"<<std::endl;
+   std::cin>> a >> b;
+   std::cout<<"sum of two number"<< a << "and" << b << "is"<< a+b <<std::endl;
+	
+}
+int main(){
+	#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output1.txt", "w", stdout);
+	#endif
+	solve();
+	return 0;
+}
